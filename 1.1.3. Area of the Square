@@ -1,0 +1,5 @@
+
+
+side_len = int(input())
+Area = side_len*side_len
+print(Area)
