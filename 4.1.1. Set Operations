@@ -1,0 +1,9 @@
+set_A_inp = set(map(int,input("Set A: ").split()))
+set_B_inp = set(map(int,input("Set B: ").split()))
+
+union=set_A_inp|set_B_inp
+intersec = set_A_inp & set_B_inp
+diff = set_A_inp - set_B_inp
+print("Union:",union)
+print("Intersection:",intersec)
+print("Difference:",diff)
