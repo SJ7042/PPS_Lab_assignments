@@ -1,5 +1,0 @@
-
-rad = input()
-rad = float(rad)
-Area = 3.14* (rad * rad)
-print(f"{Area:.4f}")
